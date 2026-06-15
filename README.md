@@ -28,6 +28,52 @@ medicamentos.txt  → catálogo de medicamentos
 compras.txt       → compras de medicamentos realizadas
 ```
 
+## 📁 Estrutura do Projeto
+
+O projeto está organizado em módulos separados por responsabilidade, facilitando a manutenção e o trabalho em equipe.
+
+```
+petshop/
+│
+├── main.c                  ← ponto de entrada e menu principal
+│
+├── include/                ← cabeçalhos (.h) — declarações de structs e funções
+│   ├── pet.h
+│   ├── servico.h
+│   ├── consulta.h
+│   └── medicamento.h
+│
+├── src/                    ← implementações (.c) — lógica de cada módulo
+│   ├── pet.c
+│   ├── servico.c
+│   ├── consulta.c
+│   └── medicamento.c
+│
+└── dados/                  ← arquivos .txt gerados em tempo de execução
+    ├── pets.txt
+    ├── pedidos.txt
+    ├── consultas.txt
+    ├── medicamentos.txt
+    └── compras.txt
+```
+
+### Como a estrutura funciona
+
+| Pasta | Função |
+|-------|--------|
+| `include/` | Contém os arquivos `.h` com as declarações das structs e os protótipos das funções de cada módulo |
+| `src/` | Contém os arquivos `.c` com a implementação (corpo) de cada função declarada no `.h` |
+| `dados/` | Armazena os arquivos `.txt` criados automaticamente pelo programa ao salvar registros |
+
+### Compilando com a estrutura modular
+
+```bash
+gcc -o petshop main.c src/pet.c src/servico.c src/consulta.c src/medicamento.c -Wall -I include/
+```
+
+> A flag `-I include/` indica ao compilador onde encontrar os arquivos `.h`.
+> No Windows, use `petshop.exe` para executar.
+
 ---
 
 ## 🚀 Como Compilar e Executar
