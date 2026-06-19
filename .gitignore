@@ -1,0 +1,15 @@
+# Build artifacts
+obj/
+*.o
+*.exe
+
+# IDE
+.idea/
+.vscode/
+
+# Runtime data
+data/*.txt
+
+# Windows
+Thumbs.db
+Desktop.ini
