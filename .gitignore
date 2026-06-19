@@ -7,8 +7,10 @@ obj/
 .idea/
 .vscode/
 
-# Runtime data
+# Runtime data (track only pedidos.txt and consultas.txt)
 data/*.txt
+!data/pedidos.txt
+!data/consultas.txt
 
 # Windows
 Thumbs.db
