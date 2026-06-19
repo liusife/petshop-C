@@ -61,18 +61,47 @@ petshop.exe       # Windows
 O `Makefile` compila apenas os arquivos modificados (incremental) e gera os `.o` na pasta `obj/`.
 
 ---
+## 🤝 Equipe
 
-## 👥 Integrantes
-
-| Nome | Módulo |
-|------|--------|
-| Arthur | |
-| Henrique | |
-| João | |
-| Luis | |
-| Sthefanny | |
-| Túlio | |
-
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/liusife">
+        <img src="https://github.com/liusife.png" width="80px;" alt="Luis"/><br>
+        <sub><b>Luis Henrique</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/arthur-santiago26">
+        <img src="https://github.com/arthur-santiago26.png" width="80px;" alt="Arthur"/><br>
+        <sub><b>Arthur Santiago</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/cisneiroz">
+        <img src="https://github.com/cisneiroz.png" width="80px;" alt="João"/><br>
+        <sub><b>João Cisneiros</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/DavizinhoDev1">
+        <img src="https://github.com/DavizinhoDev1.png" width="80px;" alt="Túlio"/><br>
+        <sub><b>Túlio</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Henriquefigueira1">
+        <img src="https://github.com/Henriquefigueira1.png" width="80px;" alt="Henrique"/><br>
+        <sub><b>Henrique Assunção</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/sthef-almeida">
+        <img src="https://github.com/sthef-almeida.png" width="80px;" alt="Sthefanny"/><br>
+        <sub><b>Sthefanny Almeida</b></sub>
+      </a>
+  </tr>
+</table>
 ---
 
 *Disciplina de Lógica de Programação — 3º Ciclo*
